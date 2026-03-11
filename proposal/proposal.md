@@ -33,7 +33,7 @@ LLM 기반 자연어 처리 기술을 활용하여
 - EXAONE-Deep-7.8B
 - Supervised Fine-Tuning (QLoRA)
 - vLLM
-- AWQ Quantization
+- AWQ Quantization 등등
 
 
 ## 16주 마일스톤
