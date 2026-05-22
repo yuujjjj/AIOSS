@@ -23,7 +23,7 @@ jobs:
 
       - name: Run sample tests
         working-directory: sample-solutions-minimal/sample-3-testing
-        run: pytest -q
+        run: python -m pytest -q
 
       - name: Run sample lint
         run: |
