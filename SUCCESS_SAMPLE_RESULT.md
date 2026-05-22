@@ -15,7 +15,7 @@
 
 ## 샘플 3. 테스트 기초
 - [x] 테스트 2개를 작성했다: sample-solutions-minimal/sample-3-testing/tests/test_calculator.py
-- [x] pytest 통과 로그를 남겼다: 2 passed in 0.01s
+- [x] pytest 통과 로그를 남겼다: 5 passed in 0.01s
 - [x] 실패 -> 성공 흐름이 보이는 커밋 2개를 남겼다.
 
 ## 커밋 기록
