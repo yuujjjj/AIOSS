@@ -10,7 +10,9 @@ GitHub Flow를 사용해 main 브랜치를 안정적으로 유지하고, feature
 
 ## 테스트
 - python3 대화형 실행으로 get_greeting("")과 get_greeting("Yujeong") 반환값을 확인했습니다.
+- sample-solutions-minimal/sample-3-testing에서 python3 -m pytest -q 실행 결과 2 passed를 확인했습니다.
 - python3 -m ruff check . 명령으로 정적 검사를 확인했습니다.
+- GitHub Actions Sample CI 통과: https://github.com/yuujjjj/AIOSS/actions/runs/26266439753/job/77310623519
 
 ## 롤백 계획
 - 문제가 발생하면 이 PR을 revert 하거나 app/greeting.py의 변경 전 구현으로 되돌립니다.
