@@ -1,0 +1,25 @@
+name: Simple CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: TODO checkout step
+        run: 'echo "TODO: actions/checkout 단계를 추가하세요."'
+
+      - name: TODO setup python
+        run: 'echo "TODO: Python 3.10 설정 단계를 추가하세요."'
+
+      - name: TODO install dependencies
+        run: 'echo "TODO: ruff 설치 단계를 추가하세요."'
+
+      - name: TODO run lint
+        run: 'echo "TODO: ruff check 실행 단계를 추가하세요."'
